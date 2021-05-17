@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h2>Logged Out Landing View</h2>
+    <h2>Logged Out Landing View</h2>
   </div>
 </template>
 
@@ -14,8 +14,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import '@/styles/index.scss';
-    h2 {
-        color: $primary;
-    }
+@import "@/styles/index.scss";
+h2 {
+  color: $primary;
+  @include font-size("lg");
+}
 </style>
